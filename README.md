@@ -11,7 +11,7 @@ A small 2D, gladiator-themed action game built with **Python** and **Pygame**.
 
 You start in a prison cell, collect coins, visit the shop for upgrades, and fight through a sequence of arena battles. Between arenas you return to the hall, where you can save progress and prepare for the next fight.
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2694.svg" width="18" height="18" alt="⚔️" /> Features
+## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2728.svg" width="18" height="18" alt="✨" /> Features
 
 - Scene-based flow (Main Menu → Intro → Prison → Hall → Shop → Arena)
 - Multiple enemy encounters (including projectile and poison mechanics)
@@ -20,12 +20,12 @@ You start in a prison cell, collect coins, visit the shop for upgrades, and figh
 - Music + sound effects via `pygame.mixer`
 - Simple save/load using a local `save_game.pkl`
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2694.svg" width="18" height="18" alt="⚔️" /> Requirements
+## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4cb.svg" width="18" height="18" alt="📋" /> Requirements
 
 - Python 3.8+ (3.10+ recommended)
 - Pygame 2.x
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2694.svg" width="18" height="18" alt="⚔️" /> Run the game
+## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f680.svg" width="18" height="18" alt="🚀" /> Run the game
 
 From the repository root (important so relative asset paths resolve):
 
@@ -34,25 +34,16 @@ python -m pip install pygame
 python main.py
 ```
 
-If you are using a virtual environment:
+## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2328.svg" width="18" height="18" alt="⌨️" /> Controls
 
-```bash
-python -m venv .venv
-\.venv\Scripts\activate
-python -m pip install pygame
-python main.py
-```
-
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2694.svg" width="18" height="18" alt="⚔️" /> Controls
-
-### <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2694.svg" width="16" height="16" alt="⚔️" /> Player controls
+### <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f3c3.svg" width="16" height="16" alt="🏃" /> Player controls
 
 - **A / D** — Move left / right
 - **W** — Jump
 - **E** — Attack (combat) / Buy item (shop)
 - **SPACE (hold)** — Block with shield (only after you buy a shield upgrade)
 
-### <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2694.svg" width="16" height="16" alt="⚔️" /> Navigation / scenes
+### <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f5fa.svg" width="16" height="16" alt="🗺️" /> Navigation / scenes
 
 - **ESC** — Return to main menu (from most scenes)
 - **SPACE** — Skip intro / arena intro
@@ -62,12 +53,12 @@ python main.py
 - **4** — Continue after winning an arena (when prompted)
 - **B** — Go back (e.g., Hall ↔ Prison / Shop → Hall)
 
-### <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2694.svg" width="16" height="16" alt="⚔️" /> Mouse
+### <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f5b1.svg" width="16" height="16" alt="🖱️" /> Mouse
 
 - **Left click** — Menu buttons (Start / Quit)
 - **Left click** — Save/Load icons when they are visible
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2694.svg" width="18" height="18" alt="⚔️" /> Saving and loading
+## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4be.svg" width="18" height="18" alt="💾" /> Saving and loading
 
 The game includes a lightweight save system:
 
@@ -81,7 +72,7 @@ Notes:
 - If you run into load errors (or want to reset progress), delete `save_game.pkl` and start a new game.
 - Save data is created with Python `pickle`, so it is not intended to be edited manually.
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2694.svg" width="18" height="18" alt="⚔️" /> Project structure
+## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4c1.svg" width="18" height="18" alt="📁" /> Project structure
 
 - `main.py` — Entry point; level setup; game loop; save/load helpers
 - `scene.py` — Scene/state machine (menu, intros, prison/hall/shop/arena flow)
@@ -93,21 +84,4 @@ Notes:
 - `images/` — Sprites and backgrounds
 - `sounds/` — Sound effects and music
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2694.svg" width="18" height="18" alt="⚔️" /> Troubleshooting
-
-- **Black window / missing files**: run with the working directory set to the repo root (asset paths like `images/...` are relative).
-- **No audio**: make sure your system audio is available; the game initializes `pygame.mixer` on startup.
-- **Load errors**: delete `save_game.pkl` to reset progress.
-
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2694.svg" width="18" height="18" alt="⚔️" /> Contributing
-
-Issues and pull requests are welcome.
-
-If you plan to contribute:
-
-- Keep changes focused and easy to review.
-- Avoid committing local folders like `.venv/`, `.idea/`, and `__pycache__/`.
-
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2694.svg" width="18" height="18" alt="⚔️" /> License
-
-No license file is currently included. If you plan to publish this publicly, consider adding a LICENSE (e.g., MIT) and clarifying the licensing/attribution for art and audio assets.
+## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f527.svg" width="18" height="18" alt="🔧" />
