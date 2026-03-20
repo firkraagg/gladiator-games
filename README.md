@@ -1,11 +1,11 @@
+# <img src="images/Coins/coin.png" width="22" height="22" alt="" /> Battle Royale (Pygame)
+
 <p>
 	<img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
 	<img alt="Pygame" src="https://img.shields.io/badge/Pygame-2.x-00A300?style=for-the-badge" />
 	<img alt="Audio" src="https://img.shields.io/badge/Audio-pygame.mixer-6aa6ff?style=for-the-badge" />
 	<img alt="Save System" src="https://img.shields.io/badge/Save%20System-pickle-ff7a59?style=for-the-badge" />
 </p>
-
-# <img src="images/Coins/coin.png" width="22" height="22" alt="" /> Battle Royale (Pygame)
 
 A small 2D, gladiator-themed action game built with **Python** and **Pygame**.
 
