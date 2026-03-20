@@ -83,5 +83,3 @@ Notes:
 - `soundmanager.py` — Audio + music registry
 - `images/` — Sprites and backgrounds
 - `sounds/` — Sound effects and music
-
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f527.svg" width="18" height="18" alt="🔧" />
