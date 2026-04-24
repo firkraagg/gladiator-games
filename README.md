@@ -1,4 +1,4 @@
-# <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2694.svg" width="22" height="22" alt="⚔️" /> Gladiator Games (Pygame)
+# ⚔️ Gladiator Games (Pygame)
 
 <p>
 	<img alt="Python" src="https://img.shields.io/badge/Python-3.8%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" />
@@ -11,7 +11,7 @@ A small 2D, gladiator-themed action game built with **Python** and **Pygame**.
 
 You start in a prison cell, collect coins, visit the shop for upgrades, and fight through a sequence of arena battles. Between arenas you return to the hall, where you can save progress and prepare for the next fight.
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2728.svg" width="18" height="18" alt="✨" /> Features
+## ✨ Features
 
 - Scene-based flow (Main Menu → Intro → Prison → Hall → Shop → Arena)
 - Multiple enemy encounters (including projectile and poison mechanics)
@@ -20,12 +20,12 @@ You start in a prison cell, collect coins, visit the shop for upgrades, and figh
 - Music + sound effects via `pygame.mixer`
 - Simple save/load using a local `save_game.pkl`
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4cb.svg" width="18" height="18" alt="📋" /> Requirements
+## 📋 Requirements
 
 - Python 3.8+ (3.10+ recommended)
 - Pygame 2.x
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f680.svg" width="18" height="18" alt="🚀" /> Run the game
+## 🚀 Run the game
 
 From the repository root (important so relative asset paths resolve):
 
@@ -34,16 +34,16 @@ python -m pip install pygame
 python main.py
 ```
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/2328.svg" width="18" height="18" alt="⌨️" /> Controls
+## ⌨️ Controls
 
-### <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f3c3.svg" width="16" height="16" alt="🏃" /> Player controls
+### 🏃 Player controls
 
 - **A / D** — Move left / right
 - **W** — Jump
 - **E** — Attack (combat) / Buy item (shop)
 - **SPACE (hold)** — Block with shield (only after you buy a shield upgrade)
 
-### <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f5fa.svg" width="16" height="16" alt="🗺️" /> Navigation / scenes
+### 🗺️ Navigation / scenes
 
 - **ESC** — Return to main menu (from most scenes)
 - **SPACE** — Skip intro / arena intro
@@ -53,12 +53,12 @@ python main.py
 - **4** — Continue after winning an arena (when prompted)
 - **B** — Go back (e.g., Hall ↔ Prison / Shop → Hall)
 
-### <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f5b1.svg" width="16" height="16" alt="🖱️" /> Mouse
+### 🖱️ Mouse
 
 - **Left click** — Menu buttons (Start / Quit)
 - **Left click** — Save/Load icons when they are visible
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4be.svg" width="18" height="18" alt="💾" /> Saving and loading
+## 💾 Saving and loading
 
 The game includes a lightweight save system:
 
@@ -72,7 +72,7 @@ Notes:
 - If you run into load errors (or want to reset progress), delete `save_game.pkl` and start a new game.
 - Save data is created with Python `pickle`, so it is not intended to be edited manually.
 
-## <img src="https://cdn.jsdelivr.net/gh/twitter/twemoji@14.0.2/assets/svg/1f4c1.svg" width="18" height="18" alt="📁" /> Project structure
+## 📁 Project structure
 
 - `main.py` — Entry point; level setup; game loop; save/load helpers
 - `scene.py` — Scene/state machine (menu, intros, prison/hall/shop/arena flow)
